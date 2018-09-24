@@ -1,0 +1,14 @@
+#new-validation-module-root .tl-search-headers .tl-flex-col span.tl-filter-name {
+  margin-right: 10px; }
+
+#new-validation-module-root .tl-flex-row.tl-flex-col.tl-search-headers {
+  flex-wrap: wrap;
+  font-weight: 600;
+  flex-basis: 75%; }
+  #new-validation-module-root .tl-flex-row.tl-flex-col.tl-search-headers > .tl-flex-col {
+    flex-basis: 33.33333%;
+    margin: 10px 0; }
+
+#new-validation-module-root .tl-flex-row .tl-apply-search {
+  flex-basis: 25%;
+  text-align: right; }

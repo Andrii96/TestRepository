@@ -1,0 +1,740 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-01-31 14:00+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. [leftPanel.noBookmarks]
+#. defaultMessage is:
+#. (no bookmarks)
+#: src/i18n/messages-to-translate.json
+msgctxt "leftPanel.noBookmarks"
+msgid "(no bookmarks)"
+msgstr "Aucun signet"
+
+#. [leftPanel.noComments]
+#. defaultMessage is:
+#. (no comments)
+#: src/i18n/messages-to-translate.json
+msgctxt "leftPanel.noComments"
+msgid "(no comments)"
+msgstr "Aucun commentaire."
+
+#. [selectList.selectAll]
+#. defaultMessage is:
+#. All
+#: src/i18n/messages-to-translate.json
+msgctxt "selectList.selectAll"
+msgid "All"
+msgstr "Toutes"
+
+#. [taskFilers.applyButton]
+#. defaultMessage is:
+#. Apply
+#: src/i18n/messages-to-translate.json
+msgctxt "taskFilers.applyButton"
+msgid "Apply"
+msgstr "Appliquer"
+
+#. [taskList.gridAssignee]
+#. defaultMessage is:
+#. Assignee
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.gridAssignee"
+msgid "Assignee"
+msgstr "Valideur"
+
+#. [recordView.backToTasksButton]
+#. defaultMessage is:
+#. Back to the list
+#: src/i18n/messages-to-translate.json
+msgctxt "recordView.backToTasksButton"
+msgid "Back to the list"
+msgstr "Back to the list"
+
+#. [leftPanel.bookmarks]
+#. defaultMessage is:
+#. Bookmarks
+#: src/i18n/messages-to-translate.json
+msgctxt "leftPanel.bookmarks"
+msgid "Bookmarks"
+msgstr "Signets"
+
+#. [general.cancelButton]
+#. defaultMessage is:
+#. Cancel
+#: src/i18n/messages-to-translate.json
+msgctxt "general.cancelButton"
+msgid "Cancel"
+msgstr "Cancel"
+
+#. [listPage.chooseImportFile]
+#. defaultMessage is:
+#. Choose file
+#: src/i18n/messages-to-translate.json
+msgctxt "listPage.chooseImportFile"
+msgid "Choose file"
+msgstr "Choose file"
+
+#. [commentModal.modalTitle]
+#. defaultMessage is:
+#. Comment
+#: src/i18n/messages-to-translate.json
+msgctxt "commentModal.modalTitle"
+msgid "Comment"
+msgstr "Commentaire"
+
+#. [leftPanel.comments]
+#. defaultMessage is:
+#. Comments
+#: src/i18n/messages-to-translate.json
+msgctxt "leftPanel.comments"
+msgid "Comments"
+msgstr "Commentaires"
+
+#. [commentModal.commentHint1]
+#. defaultMessage is:
+#. Comments are for your use only (internal communications, reminders, etc.)
+#: src/i18n/messages-to-translate.json
+msgctxt "commentModal.commentHint1"
+msgid ""
+"Comments are for your use only (internal communications, reminders, etc.)"
+msgstr ""
+"Les commentaires vous sont exclusivement destinés (communications internes, "
+"rappels, etc.)."
+
+#. [commentModal.commentHint2]
+#. defaultMessage is:
+#. Comments will not be taken into consideration by Telelingua before finalization of the files
+#: src/i18n/messages-to-translate.json
+msgctxt "commentModal.commentHint2"
+msgid ""
+"Comments will not be taken into consideration by Telelingua before "
+"finalization of the files"
+msgstr ""
+"Les commentaires ne seront pas pris en considération par Telelingua avant la "
+"finalisation des fichiers."
+
+#. [taskList.fileDateLabel]
+#. defaultMessage is:
+#. Date
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.fileDateLabel"
+msgid "Date"
+msgstr "Date"
+
+#. [taskList.gridProjectDeadline]
+#. defaultMessage is:
+#. Deadline
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.gridProjectDeadline"
+msgid "Deadline"
+msgstr "Date limite"
+
+#. [commentModal.commentHint3]
+#. defaultMessage is:
+#. Do not use comments to give instructions to Telelingua
+#: src/i18n/messages-to-translate.json
+msgctxt "commentModal.commentHint3"
+msgid "Do not use comments to give instructions to Telelingua"
+msgstr ""
+"N'utilisez pas les commentaires pour transmettre des instructions à "
+"Telelingua."
+
+#. [commentModal.enterCommentHint]
+#. defaultMessage is:
+#. Enter comment
+#: src/i18n/messages-to-translate.json
+msgctxt "commentModal.enterCommentHint"
+msgid "Enter comment"
+msgstr "Enter comment"
+
+#. [searchModal.enterReplaceValue]
+#. defaultMessage is:
+#. Enter replace value
+#: src/i18n/messages-to-translate.json
+msgctxt "searchModal.enterReplaceValue"
+msgid "Enter replace value"
+msgstr "Enter replace value"
+
+#. [searchModal.enterSearchValue]
+#. defaultMessage is:
+#. Enter search value
+#: src/i18n/messages-to-translate.json
+msgctxt "searchModal.enterSearchValue"
+msgid "Enter search value"
+msgstr "Enter search value"
+
+#. [taskList.fileLabel]
+#. defaultMessage is:
+#. File
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.fileLabel"
+msgid "File"
+msgstr "Fichier"
+
+#. [taskList.taskFilesButton]
+#. defaultMessage is:
+#. Files
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.taskFilesButton"
+msgid "Files"
+msgstr "Fichiers"
+
+#. [taskList.finalizeTaskButton]
+#. defaultMessage is:
+#. Finalize this task
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.finalizeTaskButton"
+msgid "Finalize this task"
+msgstr "Finaliser cette tâche"
+
+#. [taskFilters.groupHint]
+#. defaultMessage is:
+#. Group
+#: src/i18n/messages-to-translate.json
+msgctxt "taskFilters.groupHint"
+msgid "Group"
+msgstr "Groupe"
+
+#. [taskFilers.group]
+#. defaultMessage is:
+#. Groups
+#: src/i18n/messages-to-translate.json
+msgctxt "taskFilers.group"
+msgid "Groups"
+msgstr "Groupe"
+
+#. [recordSearchPanel.hideDiffButton]
+#. defaultMessage is:
+#. Hide diff
+#: src/i18n/messages-to-translate.json
+msgctxt "recordSearchPanel.hideDiffButton"
+msgid "Hide diff"
+msgstr "Masquer les changements"
+
+#. [listPage.importTitle]
+#. defaultMessage is:
+#. Import
+#: src/i18n/messages-to-translate.json
+msgctxt "listPage.importTitle"
+msgid "Import"
+msgstr "Import"
+
+#. [listPage.imortButton]
+#. defaultMessage is:
+#. Import
+#: src/i18n/messages-to-translate.json
+msgctxt "listPage.imortButton"
+msgid "Import"
+msgstr "Import"
+
+#. [listPage.importProcess]
+#. defaultMessage is:
+#. Importing...
+#: src/i18n/messages-to-translate.json
+msgctxt "listPage.importProcess"
+msgid "Importing..."
+msgstr "Importing..."
+
+#. [recordSearchPanel.loadingRecordDetails]
+#. defaultMessage is:
+#. Loading details...
+#: src/i18n/messages-to-translate.json
+msgctxt "recordSearchPanel.loadingRecordDetails"
+msgid "Loading details..."
+msgstr "Loading details..."
+
+#. [general.loading]
+#. defaultMessage is:
+#. Loading...
+#: src/i18n/messages-to-translate.json
+msgctxt "general.loading"
+msgid "Loading..."
+msgstr "Chargement..."
+
+#. [recordView.openLogHint]
+#. defaultMessage is:
+#. Log
+#: src/i18n/messages-to-translate.json
+msgctxt "recordView.openLogHint"
+msgid "Log"
+msgstr "Journal"
+
+#. [general.paginationNextHint]
+#. defaultMessage is:
+#. Next
+#: src/i18n/messages-to-translate.json
+msgctxt "general.paginationNextHint"
+msgid "Next"
+msgstr "Next"
+
+#. [selectList.noItems]
+#. defaultMessage is:
+#. No results
+#: src/i18n/messages-to-translate.json
+msgctxt "selectList.noItems"
+msgid "No results"
+msgstr "Aucun résultat"
+
+#. [general.noItems]
+#. defaultMessage is:
+#. No results
+#: src/i18n/messages-to-translate.json
+msgctxt "general.noItems"
+msgid "No results"
+msgstr "Aucun résultat"
+
+#. [recordView.noMatch]
+#. defaultMessage is:
+#. NoM
+#: src/i18n/messages-to-translate.json
+msgctxt "recordView.noMatch"
+msgid "NoM"
+msgstr "NoM"
+
+#. [taskFilers.lateTasks]
+#. defaultMessage is:
+#. Only late tasks
+#: src/i18n/messages-to-translate.json
+msgctxt "taskFilers.lateTasks"
+msgid "Only late tasks"
+msgstr "Tâches en retard seulement"
+
+#. [recordSearchPanel.showCorrectionsButton]
+#. defaultMessage is:
+#. Only show corrections
+#: src/i18n/messages-to-translate.json
+msgctxt "recordSearchPanel.showCorrectionsButton"
+msgid "Only show corrections"
+msgstr "Afficher uniquement les corrections"
+
+#. [notFoundPage.message404]
+#. defaultMessage is:
+#. Page not found
+#: src/i18n/messages-to-translate.json
+msgctxt "notFoundPage.message404"
+msgid "Page not found"
+msgstr "Page not found"
+
+#. [general.paginationPrevHint]
+#. defaultMessage is:
+#. Prev
+#: src/i18n/messages-to-translate.json
+msgctxt "general.paginationPrevHint"
+msgid "Prev"
+msgstr "Prev"
+
+#. [searchModal.previewReplaceButton]
+#. defaultMessage is:
+#. Preview Replace
+#: src/i18n/messages-to-translate.json
+msgctxt "searchModal.previewReplaceButton"
+msgid "Preview Replace"
+msgstr "Preview Replace"
+
+#. [taskFilters.progressHint]
+#. defaultMessage is:
+#. Progress
+#: src/i18n/messages-to-translate.json
+msgctxt "taskFilters.progressHint"
+msgid "Progress"
+msgstr "Statut"
+
+#. [taskFilers.progress]
+#. defaultMessage is:
+#. Progress
+#: src/i18n/messages-to-translate.json
+msgctxt "taskFilers.progress"
+msgid "Progress"
+msgstr "Statut"
+
+#. [taskFilters.searchPlaceholder]
+#. defaultMessage is:
+#. Proj. code, name or task code
+#: src/i18n/messages-to-translate.json
+msgctxt "taskFilters.searchPlaceholder"
+msgid "Proj. code, name or task code"
+msgstr "Code proj., nom proj. ou code tâche"
+
+#. [taskList.gridProjectCode]
+#. defaultMessage is:
+#. Project Code
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.gridProjectCode"
+msgid "Project Code"
+msgstr "Code projet"
+
+#. [taskList.gridProjectName]
+#. defaultMessage is:
+#. Project Name
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.gridProjectName"
+msgid "Project Name"
+msgstr "Nom projet"
+
+#. [taskList.reassignTaskButton]
+#. defaultMessage is:
+#. Reassign this task
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.reassignTaskButton"
+msgid "Reassign this task"
+msgstr "Réattribuer cette tâche"
+
+#. [leftPanel.references]
+#. defaultMessage is:
+#. References
+#: src/i18n/messages-to-translate.json
+msgctxt "leftPanel.references"
+msgid "References"
+msgstr "Références"
+
+#. [searchModal.replaceLabel]
+#. defaultMessage is:
+#. Replace
+#: src/i18n/messages-to-translate.json
+msgctxt "searchModal.replaceLabel"
+msgid "Replace"
+msgstr "Remplacer"
+
+#. [searchModal.replaceButton]
+#. defaultMessage is:
+#. Replace
+#: src/i18n/messages-to-translate.json
+msgctxt "searchModal.replaceButton"
+msgid "Replace"
+msgstr "Remplacer"
+
+#. [searchModal.replacedColHeader]
+#. defaultMessage is:
+#. Replaced
+#: src/i18n/messages-to-translate.json
+msgctxt "searchModal.replacedColHeader"
+msgid "Replaced"
+msgstr "REMPLACEMENT EFFECTUÉ"
+
+#. [taskList.gridRequestDate]
+#. defaultMessage is:
+#. Request Date
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.gridRequestDate"
+msgid "Request Date"
+msgstr "Date de la demande"
+
+#. [taskFilters.responsibilitiesHint]
+#. defaultMessage is:
+#. Responsibilities
+#: src/i18n/messages-to-translate.json
+msgctxt "taskFilters.responsibilitiesHint"
+msgid "Responsibilities"
+msgstr "Contacts"
+
+#. [taskFilers.responsibilities]
+#. defaultMessage is:
+#. Responsibilities
+#: src/i18n/messages-to-translate.json
+msgctxt "taskFilers.responsibilities"
+msgid "Responsibilities"
+msgstr "Contacts"
+
+#. [taskList.gridResponsible]
+#. defaultMessage is:
+#. Responsible
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.gridResponsible"
+msgid "Responsible"
+msgstr "Contact"
+
+#. [general.revertHint]
+#. defaultMessage is:
+#. Revert
+#: src/i18n/messages-to-translate.json
+msgctxt "general.revertHint"
+msgid "Revert"
+msgstr "Rétablir"
+
+#. [general.saveButton]
+#. defaultMessage is:
+#. Save
+#: src/i18n/messages-to-translate.json
+msgctxt "general.saveButton"
+msgid "Save"
+msgstr "Save"
+
+#. [commentModal.saveComment]
+#. defaultMessage is:
+#. Save comment
+#: src/i18n/messages-to-translate.json
+msgctxt "commentModal.saveComment"
+msgid "Save comment"
+msgstr "Enregistrer le commentaire"
+
+#. [searchModal.modalTitle]
+#. defaultMessage is:
+#. Search
+#: src/i18n/messages-to-translate.json
+msgctxt "searchModal.modalTitle"
+msgid "Search"
+msgstr "Rechercher et remplacer"
+
+#. [searchModal.searchLabel]
+#. defaultMessage is:
+#. Search
+#: src/i18n/messages-to-translate.json
+msgctxt "searchModal.searchLabel"
+msgid "Search"
+msgstr "Rechercher"
+
+#. [recordSearchPanel.searchButton]
+#. defaultMessage is:
+#. Search
+#: src/i18n/messages-to-translate.json
+msgctxt "recordSearchPanel.searchButton"
+msgid "Search"
+msgstr "Rechercher et remplacer"
+
+#. [taskFilers.search]
+#. defaultMessage is:
+#. Search
+#: src/i18n/messages-to-translate.json
+msgctxt "taskFilers.search"
+msgid "Search"
+msgstr "Rechercher"
+
+#. [searchModal.replaceAndSearchLabel]
+#. defaultMessage is:
+#. Search and Replace
+#: src/i18n/messages-to-translate.json
+msgctxt "searchModal.replaceAndSearchLabel"
+msgid "Search and Replace"
+msgstr "Search and Replace"
+
+#. [searchModal.searchResultTitle]
+#. defaultMessage is:
+#. Search returned {count}
+#: src/i18n/messages-to-translate.json
+msgctxt "searchModal.searchResultTitle"
+msgid "Search returned {count}"
+msgstr "Nombre de résultats {count}"
+
+#. [recordSearchPanel.showAllButton]
+#. defaultMessage is:
+#. Show all
+#: src/i18n/messages-to-translate.json
+msgctxt "recordSearchPanel.showAllButton"
+msgid "Show all"
+msgstr "Tout afficher"
+
+#. [recordSearchPanel.showDiffButton]
+#. defaultMessage is:
+#. Show diff
+#: src/i18n/messages-to-translate.json
+msgctxt "recordSearchPanel.showDiffButton"
+msgid "Show diff"
+msgstr "Afficher les changements"
+
+#. [recordSearchPanel.showMatchesLabel]
+#. defaultMessage is:
+#. Show matches
+#: src/i18n/messages-to-translate.json
+msgctxt "recordSearchPanel.showMatchesLabel"
+msgid "Show matches"
+msgstr "Afficher les correspondances"
+
+#. [taskList.gridSourceLanguage]
+#. defaultMessage is:
+#. Source
+#. Language
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.gridSourceLanguage"
+msgid ""
+"Source\n"
+"Language"
+msgstr ""
+"Langue\n"
+"source"
+
+#. [taskList.fileStatusLabel]
+#. defaultMessage is:
+#. Status
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.fileStatusLabel"
+msgid "Status"
+msgstr "Statut"
+
+#. [taskList.gridStatus]
+#. defaultMessage is:
+#. Status
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.gridStatus"
+msgid "Status"
+msgstr "Statut"
+
+#. [taskList.gridTargetLanguage]
+#. defaultMessage is:
+#. Target
+#. Language
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.gridTargetLanguage"
+msgid ""
+"Target\n"
+"Language"
+msgstr ""
+"Langue\n"
+"cible"
+
+#. [taskList.gridTaskCode]
+#. defaultMessage is:
+#. Task Code
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.gridTaskCode"
+msgid "Task Code"
+msgstr "Code tâche"
+
+#. [searchModal.updatedSuccessMessage]
+#. defaultMessage is:
+#. The selected segments have been updated
+#: src/i18n/messages-to-translate.json
+msgctxt "searchModal.updatedSuccessMessage"
+msgid "The selected segments have been updated"
+msgstr "Les segments sélectionnés ont été mis à jour."
+
+#. [taskList.noFilesYet]
+#. defaultMessage is:
+#. There are no files yet.
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.noFilesYet"
+msgid "There are no files yet."
+msgstr "Aucun fichier renseigné."
+
+#. [selectList.unassigned]
+#. defaultMessage is:
+#. Unassigned
+#: src/i18n/messages-to-translate.json
+msgctxt "selectList.unassigned"
+msgid "Unassigned"
+msgstr "Non attribué"
+
+#. [taskList.unassignedCategory]
+#. defaultMessage is:
+#. Unassigned
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.unassignedCategory"
+msgid "Unassigned"
+msgstr "Non attribué"
+
+#. [recordView.unsavedChangesHint]
+#. defaultMessage is:
+#. Unsaved {br} changes
+#: src/i18n/messages-to-translate.json
+msgctxt "recordView.unsavedChangesHint"
+msgid "Unsaved {br} changes"
+msgstr "Modifications {br} non enregistrées"
+
+#. [taskFilers.validatorsHint]
+#. defaultMessage is:
+#. Validators
+#: src/i18n/messages-to-translate.json
+msgctxt "taskFilers.validatorsHint"
+msgid "Validators"
+msgstr "Valideurs"
+
+#. [taskFilers.validators]
+#. defaultMessage is:
+#. Validators
+#: src/i18n/messages-to-translate.json
+msgctxt "taskFilers.validators"
+msgid "Validators"
+msgstr "Valideurs"
+
+#. [recordView.endFileMessage]
+#. defaultMessage is:
+#. You have reached the end of the file
+#: src/i18n/messages-to-translate.json
+msgctxt "recordView.endFileMessage"
+msgid "You have reached the end of the file"
+msgstr "Vous avez atteint la fin du fichier."
+
+#. [recordSearchPanel.matchColumnTitle]
+#. defaultMessage is:
+#. match
+#: src/i18n/messages-to-translate.json
+msgctxt "recordSearchPanel.matchColumnTitle"
+msgid "match"
+msgstr "correspondance(s)"
+
+#. [recordSearchPanel.noMatchSelectOption]
+#. defaultMessage is:
+#. no match
+#: src/i18n/messages-to-translate.json
+msgctxt "recordSearchPanel.noMatchSelectOption"
+msgid "no match"
+msgstr "Aucune correspondance"
+
+#. [selectList.selectNone]
+#. defaultMessage is:
+#. none
+#: src/i18n/messages-to-translate.json
+msgctxt "selectList.selectNone"
+msgid "none"
+msgstr "Aucun"
+
+#. [recordSearchPanel.filePaginationTitle]
+#. defaultMessage is:
+#. pg {current} / {total}
+#: src/i18n/messages-to-translate.json
+msgctxt "recordSearchPanel.filePaginationTitle"
+msgid "pg {current} / {total}"
+msgstr "pg {current} / {total}"
+
+#. [recordSearchPanel.showPercentageLabel]
+#. defaultMessage is:
+#. than
+#: src/i18n/messages-to-translate.json
+msgctxt "recordSearchPanel.showPercentageLabel"
+msgid "than"
+msgstr "à"
+
+#. [taskList.viewOnlineLink]
+#. defaultMessage is:
+#. view online
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.viewOnlineLink"
+msgid "view online"
+msgstr "Consulter en ligne"
+
+#. [selectList.selectCount]
+#. defaultMessage is:
+#. {selected} of {total}
+#: src/i18n/messages-to-translate.json
+msgctxt "selectList.selectCount"
+msgid "{selected} of {total}"
+msgstr "{selected} de {total}"
+
+#. [taskList.groupedLangTitle]
+#. defaultMessage is:
+#. {source} >> {target}
+#: src/i18n/messages-to-translate.json
+msgctxt "taskList.groupedLangTitle"
+msgid "{source} >> {target}"
+msgstr "{source} >> {target}"
+
+#~ msgctxt "selectList.noItems"
+#~ msgid "No items"
+#~ msgstr "Aucun résultat"
+
+#~ msgctxt "general.noItems"
+#~ msgid "No items"
+#~ msgstr "Aucun résultat"
+
+#~ msgctxt "searchModal.updatedSuccessMessage"
+#~ msgid "Successfully updated"
+#~ msgstr "Les segments sélectionnés ont été mis à jour."

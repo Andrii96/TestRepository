@@ -1,0 +1,437 @@
+[
+  {
+    "id": "listPage.importTitle",
+    "defaultMessage": "Import",
+    "filepath": "src/components/List/List.js"
+  },
+  {
+    "id": "listPage.imortButton",
+    "defaultMessage": "Import",
+    "filepath": "src/components/List/List.js"
+  },
+  {
+    "id": "listPage.importProcess",
+    "defaultMessage": "Importing...",
+    "filepath": "src/components/List/List.js"
+  },
+  {
+    "id": "listPage.chooseImportFile",
+    "defaultMessage": "Choose file",
+    "filepath": "src/components/List/List.js"
+  },
+  {
+    "id": "commentModal.enterCommentHint",
+    "defaultMessage": "Enter comment",
+    "filepath": "src/components/Modals/CommentsModal.js"
+  },
+  {
+    "id": "commentModal.modalTitle",
+    "defaultMessage": "Comment",
+    "filepath": "src/components/Modals/CommentsModal.js"
+  },
+  {
+    "id": "commentModal.commentHint1",
+    "defaultMessage": "Comments are for your use only (internal communications, reminders, etc.)",
+    "filepath": "src/components/Modals/CommentsModal.js"
+  },
+  {
+    "id": "commentModal.commentHint2",
+    "defaultMessage": "Comments will not be taken into consideration by Telelingua before finalization of the files",
+    "filepath": "src/components/Modals/CommentsModal.js"
+  },
+  {
+    "id": "commentModal.commentHint3",
+    "defaultMessage": "Do not use comments to give instructions to Telelingua",
+    "filepath": "src/components/Modals/CommentsModal.js"
+  },
+  {
+    "id": "commentModal.saveComment",
+    "defaultMessage": "Save comment",
+    "filepath": "src/components/Modals/CommentsModal.js"
+  },
+  {
+    "id": "searchModal.enterSearchValue",
+    "defaultMessage": "Enter search value",
+    "filepath": "src/components/Modals/SearchRecordsModal.js"
+  },
+  {
+    "id": "searchModal.enterReplaceValue",
+    "defaultMessage": "Enter replace value",
+    "filepath": "src/components/Modals/SearchRecordsModal.js"
+  },
+  {
+    "id": "searchModal.modalTitle",
+    "defaultMessage": "Search",
+    "filepath": "src/components/Modals/SearchRecordsModal.js"
+  },
+  {
+    "id": "searchModal.searchLabel",
+    "defaultMessage": "Search",
+    "filepath": "src/components/Modals/SearchRecordsModal.js"
+  },
+  {
+    "id": "searchModal.replaceAndSearchLabel",
+    "defaultMessage": "Search and Replace",
+    "filepath": "src/components/Modals/SearchRecordsModal.js"
+  },
+  {
+    "id": "searchModal.replaceLabel",
+    "defaultMessage": "Replace",
+    "filepath": "src/components/Modals/SearchRecordsModal.js"
+  },
+  {
+    "id": "searchModal.previewReplaceButton",
+    "defaultMessage": "Preview Replace",
+    "filepath": "src/components/Modals/SearchRecordsModal.js"
+  },
+  {
+    "id": "searchModal.searchResultTitle",
+    "defaultMessage": "Search returned {count}",
+    "filepath": "src/components/Modals/SearchRecordsModal.js"
+  },
+  {
+    "id": "searchModal.updatedSuccessMessage",
+    "defaultMessage": "The selected segments have been updated",
+    "filepath": "src/components/Modals/SearchRecordsModal.js"
+  },
+  {
+    "id": "searchModal.replaceButton",
+    "defaultMessage": "Replace",
+    "filepath": "src/components/Modals/SearchRecordsModal.js"
+  },
+  {
+    "id": "searchModal.replacedColHeader",
+    "defaultMessage": "Replaced",
+    "filepath": "src/components/Modals/SearchRecordsModal.js"
+  },
+  {
+    "id": "notFoundPage.message404",
+    "defaultMessage": "Page not found",
+    "filepath": "src/components/NotFoundPage/NotFoundPage.js"
+  },
+  {
+    "id": "recordSearchPanel.noMatchSelectOption",
+    "defaultMessage": "no match",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordView.noMatch",
+    "defaultMessage": "NoM",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "leftPanel.bookmarks",
+    "defaultMessage": "Bookmarks",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "leftPanel.noBookmarks",
+    "defaultMessage": "(no bookmarks)",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "leftPanel.references",
+    "defaultMessage": "References",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "leftPanel.comments",
+    "defaultMessage": "Comments",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "leftPanel.noComments",
+    "defaultMessage": "(no comments)",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordView.backToTasksButton",
+    "defaultMessage": "Back to the list",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordSearchPanel.searchButton",
+    "defaultMessage": "Search",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordSearchPanel.showAllButton",
+    "defaultMessage": "Show all",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordSearchPanel.showCorrectionsButton",
+    "defaultMessage": "Only show corrections",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordSearchPanel.hideDiffButton",
+    "defaultMessage": "Hide diff",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordSearchPanel.showDiffButton",
+    "defaultMessage": "Show diff",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordSearchPanel.showMatchesLabel",
+    "defaultMessage": "Show matches",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordSearchPanel.showPercentageLabel",
+    "defaultMessage": "than",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordSearchPanel.loadingRecordDetails",
+    "defaultMessage": "Loading details...",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordSearchPanel.matchColumnTitle",
+    "defaultMessage": "match",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordSearchPanel.filePaginationTitle",
+    "defaultMessage": "pg {current} / {total}",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordView.unsavedChangesHint",
+    "defaultMessage": "Unsaved {br} changes",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordView.openLogHint",
+    "defaultMessage": "Log",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "recordView.endFileMessage",
+    "defaultMessage": "You have reached the end of the file",
+    "filepath": "src/components/RecordView/RecordView.js"
+  },
+  {
+    "id": "taskFilers.validatorsHint",
+    "defaultMessage": "Validators",
+    "filepath": "src/components/TaskFilters/TaskFilters.js"
+  },
+  {
+    "id": "taskFilters.responsibilitiesHint",
+    "defaultMessage": "Responsibilities",
+    "filepath": "src/components/TaskFilters/TaskFilters.js"
+  },
+  {
+    "id": "taskFilters.progressHint",
+    "defaultMessage": "Progress",
+    "filepath": "src/components/TaskFilters/TaskFilters.js"
+  },
+  {
+    "id": "taskFilters.groupHint",
+    "defaultMessage": "Group",
+    "filepath": "src/components/TaskFilters/TaskFilters.js"
+  },
+  {
+    "id": "taskFilters.searchPlaceholder",
+    "defaultMessage": "Proj. code, name or task code",
+    "filepath": "src/components/TaskFilters/TaskFilters.js"
+  },
+  {
+    "id": "taskFilers.validators",
+    "defaultMessage": "Validators",
+    "filepath": "src/components/TaskFilters/TaskFilters.js"
+  },
+  {
+    "id": "taskFilers.responsibilities",
+    "defaultMessage": "Responsibilities",
+    "filepath": "src/components/TaskFilters/TaskFilters.js"
+  },
+  {
+    "id": "taskFilers.progress",
+    "defaultMessage": "Progress",
+    "filepath": "src/components/TaskFilters/TaskFilters.js"
+  },
+  {
+    "id": "taskFilers.group",
+    "defaultMessage": "Groups",
+    "filepath": "src/components/TaskFilters/TaskFilters.js"
+  },
+  {
+    "id": "taskFilers.search",
+    "defaultMessage": "Search",
+    "filepath": "src/components/TaskFilters/TaskFilters.js"
+  },
+  {
+    "id": "taskFilers.lateTasks",
+    "defaultMessage": "Only late tasks",
+    "filepath": "src/components/TaskFilters/TaskFilters.js"
+  },
+  {
+    "id": "taskFilers.applyButton",
+    "defaultMessage": "Apply",
+    "filepath": "src/components/TaskFilters/TaskFilters.js"
+  },
+  {
+    "id": "selectList.unassigned",
+    "defaultMessage": "Unassigned",
+    "filepath": "src/components/TLSelectList/TLSelectList.js"
+  },
+  {
+    "id": "selectList.selectCount",
+    "defaultMessage": "{selected} of {total}",
+    "filepath": "src/components/TLSelectList/TLSelectList.js"
+  },
+  {
+    "id": "selectList.selectAll",
+    "defaultMessage": "All",
+    "filepath": "src/components/TLSelectList/TLSelectList.js"
+  },
+  {
+    "id": "selectList.selectNone",
+    "defaultMessage": "none",
+    "filepath": "src/components/TLSelectList/TLSelectList.js"
+  },
+  {
+    "id": "selectList.noItems",
+    "defaultMessage": "No results",
+    "filepath": "src/components/TLSelectList/TLSelectList.js"
+  },
+  {
+    "id": "taskList.unassignedCategory",
+    "defaultMessage": "Unassigned",
+    "filepath": "src/components/ValidationList/ValidationList.js"
+  },
+  {
+    "id": "taskList.groupedLangTitle",
+    "defaultMessage": "{source} >> {target}",
+    "filepath": "src/components/ValidationList/ValidationList.js"
+  },
+  {
+    "id": "taskList.reassignTaskButton",
+    "defaultMessage": "Reassign this task",
+    "filepath": "src/components/ValidationList/ValidationList.js"
+  },
+  {
+    "id": "taskList.finalizeTaskButton",
+    "defaultMessage": "Finalize this task",
+    "filepath": "src/components/ValidationList/ValidationList.js"
+  },
+  {
+    "id": "taskList.taskFilesButton",
+    "defaultMessage": "Files",
+    "filepath": "src/components/ValidationList/ValidationList.js"
+  },
+  {
+    "id": "taskList.fileLabel",
+    "defaultMessage": "File",
+    "filepath": "src/components/ValidationList/ValidationList.js"
+  },
+  {
+    "id": "taskList.fileDateLabel",
+    "defaultMessage": "Date",
+    "filepath": "src/components/ValidationList/ValidationList.js"
+  },
+  {
+    "id": "taskList.fileStatusLabel",
+    "defaultMessage": "Status",
+    "filepath": "src/components/ValidationList/ValidationList.js"
+  },
+  {
+    "id": "taskList.viewOnlineLink",
+    "defaultMessage": "view online",
+    "filepath": "src/components/ValidationList/ValidationList.js"
+  },
+  {
+    "id": "taskList.noFilesYet",
+    "defaultMessage": "There are no files yet.",
+    "filepath": "src/components/ValidationList/ValidationList.js"
+  },
+  {
+    "id": "taskList.gridProjectCode",
+    "defaultMessage": "Project Code",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "taskList.gridProjectDeadline",
+    "defaultMessage": "Deadline",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "taskList.gridRequestDate",
+    "defaultMessage": "Request Date",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "taskList.gridSourceLanguage",
+    "defaultMessage": "Source\nLanguage",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "taskList.gridTargetLanguage",
+    "defaultMessage": "Target\nLanguage",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "taskList.gridAssignee",
+    "defaultMessage": "Assignee",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "taskList.gridStatus",
+    "defaultMessage": "Status",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "taskList.gridResponsible",
+    "defaultMessage": "Responsible",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "taskList.gridProjectName",
+    "defaultMessage": "Project Name",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "taskList.gridTaskCode",
+    "defaultMessage": "Task Code",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "general.loading",
+    "defaultMessage": "Loading...",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "general.noItems",
+    "defaultMessage": "No results",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "general.saveButton",
+    "defaultMessage": "Save",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "general.cancelButton",
+    "defaultMessage": "Cancel",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "general.revertHint",
+    "defaultMessage": "Revert",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "general.paginationPrevHint",
+    "defaultMessage": "Prev",
+    "filepath": "src/i18n/generalMessages.js"
+  },
+  {
+    "id": "general.paginationNextHint",
+    "defaultMessage": "Next",
+    "filepath": "src/i18n/generalMessages.js"
+  }
+]

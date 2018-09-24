@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devabit.Telelingua.ReportingServices.Web", "Devabit.Telelingua.ReportingServices\Devabit.Telelingua.ReportingServices.Web.csproj", "{EBB98EE4-0F34-4DDA-AEE0-FA078F39656D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devabit.Telelingua.ReportingServices.DAL", "Devabit.Telelingua.ReportingServices.DAL\Devabit.Telelingua.ReportingServices.DAL.csproj", "{F1301BB2-6A2D-41A1-A997-22D364B08AC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devabit.Telelingua.ReportingServices.DataManagers", "Devabit.Telelingua.ReportingServices.DataManagers\Devabit.Telelingua.ReportingServices.DataManagers.csproj", "{62AE9B10-4052-4B42-AC56-695792681DF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devabit.Telelingua.ReportingServices.Helpers", "Helpers\Devabit.Telelingua.ReportingServices.Helpers.csproj", "{5EC487B4-0BCD-4F6A-908C-E0012CADEA81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devabit.Telelingua.ReportingServices.Models", "Devabit.Telelingua.ReportingServices.Models\Devabit.Telelingua.ReportingServices.Models.csproj", "{87763279-1E51-465E-B7B2-81D6D76203EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devabit.Telelingua.ReportingServices.Enums", "Devabit.Telelingua.ReportingServices.Enums\Devabit.Telelingua.ReportingServices.Enums.csproj", "{787F2526-0AED-4185-A224-134F0D00B8DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devabit.Telelingua.ReportingServices.DataAccess", "Devabit.Telelingua.ReportingServices.DataAccess\Devabit.Telelingua.ReportingServices.DataAccess.csproj", "{90A50A4C-BA7D-41C5-972B-DAFC5112C561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devabit.Telelingua.ReportingServices.Calculation", "Devabit.Telelingua.ReportingServices.Calculation\Devabit.Telelingua.ReportingServices.Calculation.csproj", "{2BB594E3-1EB6-4B07-96DD-0490C27ECBEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBB98EE4-0F34-4DDA-AEE0-FA078F39656D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB98EE4-0F34-4DDA-AEE0-FA078F39656D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB98EE4-0F34-4DDA-AEE0-FA078F39656D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB98EE4-0F34-4DDA-AEE0-FA078F39656D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1301BB2-6A2D-41A1-A997-22D364B08AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1301BB2-6A2D-41A1-A997-22D364B08AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1301BB2-6A2D-41A1-A997-22D364B08AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1301BB2-6A2D-41A1-A997-22D364B08AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62AE9B10-4052-4B42-AC56-695792681DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62AE9B10-4052-4B42-AC56-695792681DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62AE9B10-4052-4B42-AC56-695792681DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62AE9B10-4052-4B42-AC56-695792681DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC487B4-0BCD-4F6A-908C-E0012CADEA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC487B4-0BCD-4F6A-908C-E0012CADEA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC487B4-0BCD-4F6A-908C-E0012CADEA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC487B4-0BCD-4F6A-908C-E0012CADEA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87763279-1E51-465E-B7B2-81D6D76203EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87763279-1E51-465E-B7B2-81D6D76203EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87763279-1E51-465E-B7B2-81D6D76203EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87763279-1E51-465E-B7B2-81D6D76203EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787F2526-0AED-4185-A224-134F0D00B8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787F2526-0AED-4185-A224-134F0D00B8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787F2526-0AED-4185-A224-134F0D00B8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787F2526-0AED-4185-A224-134F0D00B8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A50A4C-BA7D-41C5-972B-DAFC5112C561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A50A4C-BA7D-41C5-972B-DAFC5112C561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A50A4C-BA7D-41C5-972B-DAFC5112C561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A50A4C-BA7D-41C5-972B-DAFC5112C561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB594E3-1EB6-4B07-96DD-0490C27ECBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB594E3-1EB6-4B07-96DD-0490C27ECBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB594E3-1EB6-4B07-96DD-0490C27ECBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB594E3-1EB6-4B07-96DD-0490C27ECBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16AE3E91-043F-4CD9-B279-B70C0DA709EA}
+	EndGlobalSection
+EndGlobal

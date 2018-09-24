@@ -1,0 +1,94 @@
+@import "../../sass/variables"
+
+#new-validation-module-root
+  .tl-select-list
+    display: inline-block
+    position: relative
+    button:disabled
+      cursor: not-allowed
+  .tl-multiselect-btn
+    width: 150px
+    min-height: 22px
+    border-radius: 6px
+    outline: none
+    transition: $transition
+    background-color: $multiselect-bg
+    border: 1px solid $multiselect-border
+    position: relative
+    cursor: pointer
+    text-align: left
+    padding: 0 20px 0 10px
+    white-space: nowrap
+    text-overflow: ellipsis
+    overflow: hidden
+    &::after
+      content: ''
+      background: url('/img/ui-icons_c50008_256x240.png') no-repeat -128px -16px $multiselect-bg
+      width: 16px
+      height: 16px
+      position: absolute
+      right: 5px
+      top: 0
+      transition: $transition
+    &:hover
+      background-color: lighten($multiselect-bg, 4%)
+      &::after
+        background-color: lighten($multiselect-bg, 4%)
+  .tl-select-menu
+    position: absolute
+    left: 0
+    top: 24px
+    padding: 3px
+    border: 1px solid $multiselect-border
+    background-color: lighten($multiselect-bg, 4%)
+    border-radius: 6px
+    min-width: 240px
+    box-sizing: border-box
+    z-index: 999
+    ul
+      list-style-type: none
+      margin: 0
+      padding: 0
+      max-height: 250px
+      overflow: auto
+      li
+        &:hover
+          label
+            background-color: $multiselect-bg
+            border: 1px solid $multiselect-border
+      label
+        display: block
+        cursor: pointer
+        transition: $transition
+        border: 1px solid transparent
+        border-radius: 6px
+        padding: 2px 0
+        user-select: none
+        input
+          margin: 4px
+        span
+          vertical-align: top
+          display: inline-block
+          margin: 2px 0
+          font-weight: 400
+  .tl-flex-row .tl-flex-col.tl-close-multiselect
+    margin-left: auto
+    flex: 0 1 0
+  .tl-select-menu-header
+    background-color: $primary-color
+    margin-bottom: 3px
+    padding: 4px 0 2px 4px
+    border-radius: 6px
+    button 
+      border: none
+      background-color: transparent
+      color: #fff
+      cursor: pointer
+      outline: none
+      &:hover
+        text-decoration: underline
+      span
+        vertical-align: top
+  .tl-no-items
+    text-align: center
+    padding: 5px 0

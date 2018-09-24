@@ -1,0 +1,226 @@
+#new-validation-module-root .tl-validation-table {
+  margin-top: 30px; }
+  #new-validation-module-root .tl-validation-table .tl-table-header {
+    background: #c50008;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em; }
+  #new-validation-module-root .tl-validation-table .tl-table-col {
+    padding: 3px 5px; }
+    #new-validation-module-root .tl-validation-table .tl-table-col.tl-col-sort {
+      flex: 0 1 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      #new-validation-module-root .tl-validation-table .tl-table-col.tl-col-sort svg {
+        fill: #c50008;
+        padding: 2px;
+        cursor: pointer;
+        transition: all 0.15s ease; }
+  #new-validation-module-root .tl-validation-table .tl-table-row {
+    transition: all 0.15s ease;
+    cursor: pointer;
+    flex-wrap: wrap; }
+    #new-validation-module-root .tl-validation-table .tl-table-row.tl-open-row {
+      background-color: #888 !important;
+      color: #fff; }
+      #new-validation-module-root .tl-validation-table .tl-table-row.tl-open-row:hover {
+        background-color: #888 !important; }
+      #new-validation-module-root .tl-validation-table .tl-table-row.tl-open-row a {
+        color: #fff; }
+    #new-validation-module-root .tl-validation-table .tl-table-row.tl-table-header {
+      position: relative; }
+  #new-validation-module-root .tl-validation-table .tl-task-details {
+    flex-basis: 100%;
+    max-height: 0;
+    overflow: hidden;
+    background-color: #efefef; }
+    #new-validation-module-root .tl-validation-table .tl-task-details.tl-open {
+      max-height: 100%;
+      overflow: visible;
+      padding-bottom: 5px; }
+    #new-validation-module-root .tl-validation-table .tl-task-details .tl-task-inner {
+      padding: 10px 15px; }
+      #new-validation-module-root .tl-validation-table .tl-task-details .tl-task-inner .tl-task-top-row {
+        text-align: right; }
+        #new-validation-module-root .tl-validation-table .tl-task-details .tl-task-inner .tl-task-top-row button {
+          margin-left: 15px; }
+  #new-validation-module-root .tl-validation-table .tl-task-files-list {
+    background-color: #fff;
+    margin: 0 15px 10px;
+    border-radius: 6px;
+    padding: 7px;
+    display: flex; }
+    #new-validation-module-root .tl-validation-table .tl-task-files-list .tl-files-left {
+      border-right: 1px solid #c50008; }
+      #new-validation-module-root .tl-validation-table .tl-task-files-list .tl-files-left button {
+        border: 1px solid #c50008;
+        background-color: #c50008;
+        color: #fff;
+        font-weight: 600;
+        padding: 5px 10px;
+        border-radius: 6px 0 0 6px;
+        outline: none; }
+    #new-validation-module-root .tl-validation-table .tl-task-files-list .tl-files-right-table {
+      flex: 1;
+      padding-left: 10px; }
+  #new-validation-module-root .tl-validation-table .tl-files-table-row {
+    display: flex;
+    padding: 3px;
+    font-size: 0.9em; }
+    #new-validation-module-root .tl-validation-table .tl-files-table-row.tl-files-table-header {
+      padding: 5px;
+      background-color: #efefef;
+      color: #c50008;
+      font-size: 1em; }
+      #new-validation-module-root .tl-validation-table .tl-files-table-row.tl-files-table-header .tl-files-col.tl-task-name-col {
+        font-weight: 400; }
+    #new-validation-module-root .tl-validation-table .tl-files-table-row .tl-files-col {
+      flex: 1; }
+      #new-validation-module-root .tl-validation-table .tl-files-table-row .tl-files-col.tl-task-name-col {
+        flex: 0 1 60%;
+        font-weight: 600;
+        color: #c50008; }
+  #new-validation-module-root .tl-validation-table .tl-table-group {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #c50008; }
+    #new-validation-module-root .tl-validation-table .tl-table-group .tl-table-group-header {
+      background-color: #666;
+      color: #fff;
+      padding: 5px; }
+    #new-validation-module-root .tl-validation-table .tl-table-group .tl-table-row:hover {
+      background-color: #cdcdcd; }
+    #new-validation-module-root .tl-validation-table .tl-table-group .tl-table-row:nth-child(even) {
+      background-color: #efefef; }
+      #new-validation-module-root .tl-validation-table .tl-table-group .tl-table-row:nth-child(even):hover {
+        background-color: #cdcdcd; }
+  #new-validation-module-root .tl-validation-table .tl-col-sort .tl-sortable-container {
+    display: none;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    border: 1px solid #c50008;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    color: #222;
+    min-width: 200px;
+    z-index: 2; }
+    #new-validation-module-root .tl-validation-table .tl-col-sort .tl-sortable-container.open {
+      display: block; }
+    #new-validation-module-root .tl-validation-table .tl-col-sort .tl-sortable-container ul {
+      margin: 0 0 15px;
+      padding: 0;
+      list-style-type: none; }
+      #new-validation-module-root .tl-validation-table .tl-col-sort .tl-sortable-container ul li {
+        padding: 3px 10px;
+        user-select: none;
+        transition: all 0.15s ease; }
+        #new-validation-module-root .tl-validation-table .tl-col-sort .tl-sortable-container ul li:nth-child(even) {
+          background-color: #efefef; }
+        #new-validation-module-root .tl-validation-table .tl-col-sort .tl-sortable-container ul li:hover {
+          background-color: #cdcdcd; }
+    #new-validation-module-root .tl-validation-table .tl-col-sort .tl-sortable-container .tl-drag-icon {
+      fill: #c50008; }
+  #new-validation-module-root .tl-validation-table .tl-table-col .tl-sortable-close {
+    text-align: right;
+    cursor: default; }
+    #new-validation-module-root .tl-validation-table .tl-table-col .tl-sortable-close button {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      padding: 0;
+      margin: 3px;
+      width: 20px;
+      height: 20px; }
+      #new-validation-module-root .tl-validation-table .tl-table-col .tl-sortable-close button svg {
+        fill: #c50008; }
+
+#new-validation-module-root .tl-task-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+  #new-validation-module-root .tl-task-top-row .tl-select-list {
+    min-width: 240px;
+    height: 23px; }
+    #new-validation-module-root .tl-task-top-row .tl-select-list .tl-multiselect-btn {
+      width: 100%;
+      min-height: 23px;
+      margin-left: 0 !important; }
+  #new-validation-module-root .tl-task-top-row .tl-button {
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 0;
+    height: 23px;
+    transition: all 0.15s ease;
+    background-color: #c50008;
+    display: inline-flex;
+    align-items: center; }
+    #new-validation-module-root .tl-task-top-row .tl-button.tl-primary-button {
+      background-color: #c50008;
+      border-color: #c50008; }
+      #new-validation-module-root .tl-task-top-row .tl-button.tl-primary-button:hover {
+        background-color: #f8000a;
+        border-color: #f8000a; }
+    #new-validation-module-root .tl-task-top-row .tl-button.tl-green-button {
+      background-color: #060;
+      border-color: #060; }
+      #new-validation-module-root .tl-task-top-row .tl-button.tl-green-button:hover {
+        background-color: #009900;
+        border-color: #009900; }
+    #new-validation-module-root .tl-task-top-row .tl-button.tl-blue-button {
+      background-color: #06c;
+      border-color: #06c; }
+      #new-validation-module-root .tl-task-top-row .tl-button.tl-blue-button svg {
+        margin: 0 5px; }
+      #new-validation-module-root .tl-task-top-row .tl-button.tl-blue-button:hover {
+        background-color: #0080ff;
+        border-color: #0080ff; }
+
+#new-validation-module-root .tl-sort-lang-titles span {
+  display: inline-block;
+  min-width: 30%; }
+
+#new-validation-module-root .tl-no-tasks {
+  margin-top: 15px;
+  margin-bottom: -30px;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+  align-self: flex-start; }
+
+#new-validation-module-root .tl-open-row .tl-deadline-passed {
+  color: #fff; }
+  #new-validation-module-root .tl-open-row .tl-deadline-passed svg {
+    fill: #fff; }
+
+#new-validation-module-root .tl-deadline-passed {
+  display: flex;
+  align-items: center;
+  color: #c50008; }
+  #new-validation-module-root .tl-deadline-passed svg {
+    margin-left: 5px;
+    fill: #c50008; }
+
+#new-validation-module-root .tl-validation-table .tl-download-pdf-offline {
+  color: #0000EE;
+  cursor: pointer;
+  text-decoration: underline;
+  display: flex;
+  align-items: center; }
+  #new-validation-module-root .tl-validation-table .tl-download-pdf-offline img {
+    width: 10px;
+    height: 10px; }
+
+#new-validation-module-root .tl-validation-table .tl-file-references-list h5 {
+  margin: 5px 0 0;
+  padding-left: 3px;
+  font-size: 12px; }
+
+#new-validation-module-root .tl-validation-table .tl-file-references-list .tl-files-table-row .tl-files-col.tl-task-name-col {
+  color: #000;
+  font-weight: 400;
+  padding-left: 20px;
+  box-sizing: border-box; }

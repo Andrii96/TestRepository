@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;NU1701</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;NU1701</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Devabit.Telelingua.ReportingServices.Calculation\Devabit.Telelingua.ReportingServices.Calculation.csproj" />
+    <ProjectReference Include="..\Devabit.Telelingua.ReportingServices.DataAccess\Devabit.Telelingua.ReportingServices.DataAccess.csproj" />
+    <ProjectReference Include="..\Devabit.Telelingua.ReportingServices.Models\Devabit.Telelingua.ReportingServices.Models.csproj" />
+    <ProjectReference Include="..\Helpers\Devabit.Telelingua.ReportingServices.Helpers.csproj" />
+  </ItemGroup>
+
+
+</Project>

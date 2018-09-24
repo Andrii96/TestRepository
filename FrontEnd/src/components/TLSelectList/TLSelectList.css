@@ -1,0 +1,94 @@
+#new-validation-module-root .tl-select-list {
+  display: inline-block;
+  position: relative; }
+  #new-validation-module-root .tl-select-list button:disabled {
+    cursor: not-allowed; }
+
+#new-validation-module-root .tl-multiselect-btn {
+  width: 150px;
+  min-height: 22px;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.15s ease;
+  background-color: #f1f1f1;
+  border: 1px solid #d8dcdf;
+  position: relative;
+  cursor: pointer;
+  text-align: left;
+  padding: 0 20px 0 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+  #new-validation-module-root .tl-multiselect-btn::after {
+    content: '';
+    background: url("/img/ui-icons_c50008_256x240.png") no-repeat -128px -16px #f1f1f1;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    transition: all 0.15s ease; }
+  #new-validation-module-root .tl-multiselect-btn:hover {
+    background-color: #fbfbfb; }
+    #new-validation-module-root .tl-multiselect-btn:hover::after {
+      background-color: #fbfbfb; }
+
+#new-validation-module-root .tl-select-menu {
+  position: absolute;
+  left: 0;
+  top: 24px;
+  padding: 3px;
+  border: 1px solid #d8dcdf;
+  background-color: #fbfbfb;
+  border-radius: 6px;
+  min-width: 240px;
+  box-sizing: border-box;
+  z-index: 999; }
+  #new-validation-module-root .tl-select-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 250px;
+    overflow: auto; }
+    #new-validation-module-root .tl-select-menu ul li:hover label {
+      background-color: #f1f1f1;
+      border: 1px solid #d8dcdf; }
+    #new-validation-module-root .tl-select-menu ul label {
+      display: block;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      border: 1px solid transparent;
+      border-radius: 6px;
+      padding: 2px 0;
+      user-select: none; }
+      #new-validation-module-root .tl-select-menu ul label input {
+        margin: 4px; }
+      #new-validation-module-root .tl-select-menu ul label span {
+        vertical-align: top;
+        display: inline-block;
+        margin: 2px 0;
+        font-weight: 400; }
+
+#new-validation-module-root .tl-flex-row .tl-flex-col.tl-close-multiselect {
+  margin-left: auto;
+  flex: 0 1 0; }
+
+#new-validation-module-root .tl-select-menu-header {
+  background-color: #c50008;
+  margin-bottom: 3px;
+  padding: 4px 0 2px 4px;
+  border-radius: 6px; }
+  #new-validation-module-root .tl-select-menu-header button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    outline: none; }
+    #new-validation-module-root .tl-select-menu-header button:hover {
+      text-decoration: underline; }
+    #new-validation-module-root .tl-select-menu-header button span {
+      vertical-align: top; }
+
+#new-validation-module-root .tl-no-items {
+  text-align: center;
+  padding: 5px 0; }

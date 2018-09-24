@@ -1,0 +1,202 @@
+@import "_variables"
+@import '../../node_modules/react-redux-toastr/src/styles/index'
+
+// Should be global class
+.tl-sortable-row
+  font-family: $font
+  font-weight: bold
+  list-style-type: none
+  position: relative
+  z-index: 9999
+  display: flex
+  align-items: center
+  label
+    cursor: pointer
+    display: flex
+    align-items: center
+    flex: 1
+    input
+      margin-right: 10px
+  svg
+    fill: $primary-color
+    margin-left: auto
+
+//body
+//  margin: 0 // Remove before integration
+//  overflow-y: scroll // Remove before integration
+
+.tl-clearfix:after
+  content: ''
+  display: block
+  clear: both
+.tl-text-right
+  text-align: right
+.tl-error-message
+  color: $primary-color
+  margin: 10px 0
+.tl-editable-span:focus
+  box-shadow: none
+  outline: none
+
+.tl-list-paginate
+  display: inline-block
+  padding-left: 15px
+  padding-right: 15px
+  margin: 15px 0
+  li
+    display: inline-block
+    a
+      display: block
+      padding: 2px 6px
+      border: 1px solid #ccc
+      border-radius: 3px
+      margin: 0 2px
+      cursor: pointer
+      outline: none
+      user-select: none
+      text-decoration: none
+    &.tl-break-navigation
+      a
+        cursor: default
+        border-color: #ccc
+        color: #000
+        text-decoration: none
+      &:hover
+        a
+          border-color: #ccc
+          color: #000
+    &.tl-active-navigation
+      a
+        border-color: $primary-color
+        background: $primary-color
+        color: #fff
+        &:hover
+          color: #fff
+    &:hover
+      a
+        border-color: $primary-color
+        color: $primary-color
+    &.previous, &.next
+      &.disabled
+        a
+          cursor: not-allowed
+          background-color: $input-border
+          border-color: $input-border
+          color: #fff
+
+#new-validation-module-root
+  font-family: $font
+  font-size: 12px
+  //width: 90% // Remove before integration
+  //margin: 0 auto // Remove before integration
+  .tl-text-center
+    text-align: center
+  .tl-primary-color
+    color: $primary-color
+  .tl-required
+    font-size: 1.1em
+    line-height: .5em
+  .tl-flex-row
+    display: flex
+    align-items: center
+    .tl-flex-col
+      flex: 1
+  .tl-input-field
+    border-radius: 5px
+    border: 1px solid $input-border
+    padding: .3em .5em
+    outline: none
+  .tl-default-button
+    border: 1px solid $button-border
+    background: $button-bg
+    border-radius: 6px
+    font-size: .9em
+    color: $primary-color
+    outline: none
+    padding: .4em 1em
+    cursor: pointer
+    transition: $transition
+    &:hover
+      background-color: lighten($button-bg, 5%)
+  .tl-table-row
+    display: flex
+    align-items: center
+    .tl-table-col
+      flex: 1
+      box-sizing: border-box
+      white-space: pre-wrap
+      word-break: break-word
+      word-wrap: break-word
+      min-width: 0
+    &.tl-table-header
+      .tl-table-col
+        padding: 6px 5px
+        svg
+          fill: #fff
+  button, select
+    outline: none
+    cursor: pointer
+    &:disabled
+      cursor: not-allowed
+  .tl-error-message
+    color: $primary-color
+  .tl-loading-tasks
+    font-size: 18px
+    font-weight: 600
+    font-style: italic
+    margin: 15px 0
+  .tl-import-file
+    margin: 50px 0
+    border-top: 1px solid $list-header-group
+  .tl-loading-gif
+    margin-right: 10px
+
+// Rewrite old telelingua styles
+@media only screen and (max-width: 1400px)
+  body
+    #header
+      .nav
+        a, .red
+          font-size: 1em
+          margin-right: 1em
+
+
+// Telelingua notification
+.redux-toastr
+  .top-center
+    min-width: 450px
+  .toastr
+    min-height: auto
+    box-shadow: 4px 4px 8px #c7bfaf
+    border-radius: 10px
+    padding: 0 25px
+    opacity: 1
+    &.toastr
+      &.rrt-error, &.rrt-success
+        border: 1px solid $primary-color
+        background-color: #fff
+        color: #000
+    .rrt-left-container
+      display: none
+      width: 0
+    .rrt-middle-container
+      width: 100%
+      margin-left: 0
+    .close-toastr
+      width: 16px
+      height: 16px
+      font-size: 10px
+      font-weight: 600
+      background-color: $primary-color
+      color: #fff
+      opacity: 1
+      border-radius: 50%
+      padding: 0
+      display: flex
+      align-items: center
+      justify-content: center
+      top: 5px
+      right: 5px
+
+button
+  line-height: 1

@@ -1,0 +1,10 @@
+.tl-select-menu.tl-reassign-menu {
+  text-align: left; }
+  .tl-select-menu.tl-reassign-menu .tl-reassign-menu-lang {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 600; }
+
+.tl-select-menu .tl-active-assignee {
+  color: #c50008; }

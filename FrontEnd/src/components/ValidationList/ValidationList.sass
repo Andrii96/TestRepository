@@ -1,0 +1,228 @@
+@import "../../sass/variables"
+
+#new-validation-module-root
+  .tl-validation-table
+    margin-top: 30px
+    .tl-table-header
+      background: $primary-color
+      color: #fff
+      font-weight: bold
+      font-size: 1.1em
+    .tl-table-col
+      padding: 3px 5px
+      &.tl-col-sort
+        flex: 0 1 35px
+        display: flex
+        align-items: center
+        justify-content: center
+        svg
+          fill: $primary-color
+          padding: 2px
+          cursor: pointer
+          transition: $transition
+    .tl-table-row
+      transition: $transition
+      cursor: pointer
+      flex-wrap: wrap
+      &.tl-open-row
+        background-color: $table-open-row !important
+        color: #fff
+        &:hover
+          background-color: $table-open-row !important
+        a
+          color: #fff
+      &.tl-table-header
+        position: relative
+    .tl-task-details
+      flex-basis: 100%
+      max-height: 0
+      overflow: hidden
+      background-color: $table-grey-color
+      &.tl-open
+        max-height: 100%
+        overflow: visible
+        padding-bottom: 5px
+      .tl-task-inner
+        padding: 10px 15px
+        .tl-task-top-row
+          text-align: right
+          button
+            margin-left: 15px
+    .tl-task-files-list
+      background-color: #fff
+      margin: 0 15px 10px
+      border-radius: 6px
+      padding: 7px
+      display: flex
+      .tl-files-left
+        border-right: 1px solid $primary-color
+        button
+          border: 1px solid $primary-color
+          background-color: $primary-color
+          color: #fff
+          font-weight: 600
+          padding: 5px 10px
+          border-radius: 6px 0 0 6px
+          outline: none
+      .tl-files-right-table
+        flex: 1
+        padding-left: 10px
+    .tl-files-table-row
+      display: flex
+      padding: 3px
+      font-size: 0.9em
+      &.tl-files-table-header
+        padding: 5px
+        background-color: $table-grey-color
+        color: $primary-color
+        font-size: 1em
+        .tl-files-col.tl-task-name-col
+          font-weight: 400
+      .tl-files-col
+        flex: 1
+        &.tl-task-name-col
+          flex: 0 1 60%
+          font-weight: 600
+          color: $primary-color
+    .tl-table-group
+      margin-bottom: 10px
+      border-bottom: 1px dotted $primary-color
+      .tl-table-group-header
+        background-color: $list-header-group
+        color: #fff
+        padding: 5px
+      .tl-table-row
+        &:hover
+          background-color: $table-hover-row-color
+      .tl-table-row:nth-child(even)
+        background-color: $table-grey-color
+        &:hover
+          background-color: $table-hover-row-color
+    .tl-col-sort
+      .tl-sortable-container
+        display: none
+        position: absolute
+        left: 3px
+        top: 3px
+        border: 1px solid $primary-color
+        box-shadow: 2px 2px 2px 2px rgba(0,0,0,.5)
+        background-color: #fff
+        color: $font-color
+        min-width: 200px
+        z-index: 2
+        &.open
+          display: block
+        ul
+          margin: 0 0 15px
+          padding: 0
+          list-style-type: none
+          li
+            padding: 3px 10px
+            user-select: none
+            transition: $transition
+            &:nth-child(even)
+              background-color: $table-grey-color
+            &:hover
+              background-color: $table-hover-row-color
+        .tl-drag-icon
+          fill: $primary-color
+    .tl-table-col
+      .tl-sortable-close
+        text-align: right
+        cursor: default
+        button
+          background-color: transparent
+          border: none
+          outline: none
+          padding: 0
+          margin: 3px
+          width: 20px
+          height: 20px
+          svg
+            fill: $primary-color
+  .tl-task-top-row
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    .tl-select-list
+      min-width: 240px
+      height: 23px
+      .tl-multiselect-btn
+        width: 100%
+        min-height: 23px
+        margin-left: 0 !important
+    .tl-button
+      padding: 0 10px
+      border-radius: 5px
+      border: 1px solid
+      color: #fff
+      font-weight: 600
+      margin-right: 0
+      height: 23px
+      transition: $transition
+      background-color: $primary-color
+      display: inline-flex
+      align-items: center
+      &.tl-primary-button
+        background-color: $primary-color
+        border-color: $primary-color
+        &:hover
+          background-color: lighten($primary-color, 10%)
+          border-color: lighten($primary-color, 10%)
+      &.tl-green-button
+        background-color: $green-button
+        border-color: $green-button
+        &:hover
+          background-color: lighten($green-button, 10%)
+          border-color: lighten($green-button, 10%)
+      &.tl-blue-button
+        background-color: $blue-color
+        border-color: $blue-color
+        svg
+          margin: 0 5px
+        &:hover
+          background-color: lighten($blue-color, 10%)
+          border-color: lighten($blue-color, 10%)
+  .tl-sort-lang-titles
+    span
+      display: inline-block
+      min-width: 30%
+  .tl-no-tasks
+    margin-top: 15px
+    margin-bottom: -30px
+    font-size: 16px
+    font-weight: 600
+    font-style: italic
+    align-self: flex-start
+  .tl-open-row
+    .tl-deadline-passed
+      color: #fff
+      svg
+        fill: #fff
+  .tl-deadline-passed
+    display: flex
+    align-items: center
+    color: $primary-color
+    svg
+      margin-left: 5px
+      fill: $primary-color
+  .tl-validation-table
+    .tl-download-pdf-offline
+      color: $link-color
+      cursor: pointer
+      text-decoration: underline
+      display: flex
+      align-items: center
+      img
+        width: 10px
+        height: 10px
+    .tl-file-references-list
+      h5
+        margin: 5px 0 0
+        padding-left: 3px
+        font-size: 12px
+      .tl-files-table-row .tl-files-col.tl-task-name-col
+        color: #000
+        font-weight: 400
+        padding-left: 20px
+        box-sizing: border-box
